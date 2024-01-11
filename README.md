@@ -1,4 +1,9 @@
-# NPM Scripts
+# Grid and Flexbox based responsive auctioneer app
+
+Demonstrates using grid and flexbox to create responsive websites. Uses a simple build
+tool to run a live-server and watch for changes: read below.
+
+## NPM Scripts build tool
 
 This is a simple npm script based build tool to build simple web apps. It has some sample files and sass to test the build process.
 
