@@ -1,4 +1,49 @@
-.homes {
-    background-color: $color-secondary;
+.homes {    
     grid-column: center-start / center-end;
+    margin: 15rem 0;
+
+    display: grid;
+
+    // fit as many coulums as will fit, make them atleast 250px
+    // and grow to take up as much space as they can
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 7rem;
+
+}
+
+.home {
+    background-color: $color-grey-light-1;
+
+    display: grid;
+
+    &__img {
+        width: 100%;
+       
+    }
+
+    &__like {
+
+    }
+
+    &__name {
+
+    }
+
+    &__locatiion,
+    &__rooms,
+    &__area,
+    &__price {
+        
+        svg {
+         fill: $color-primary;
+         width: 2rem;
+         height: 2rem;       
+        }
+
+        p {
+
+        }
+    }
+
+
 }
